@@ -7,16 +7,21 @@ import Experience from "@/components/sections/Experience.astro";
 import Education from "@/components/sections/Education.astro";
 import Skills from "@/components/sections/Skills.astro";
 import Projects from "@/components/sections/Projects.astro";
+import Languages from "@/components/sections/Languages.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
+
+import {basics} from '@cv'
+const {name, label} = basics
 ---
 
-<Layout title="minimalist portfolio">
+<Layout title={`Portfolio de ${name} - ${label}`}>
 	<main>
 		<Hero />
 		<About />
-		<Experience />
 		<Education />
+		<Experience />
 		<Skills />
+		<Languages />
 		<Projects />
 	</main>
 	<KeyboardManager />

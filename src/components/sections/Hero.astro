@@ -24,6 +24,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     <div class="container">
         <div class="info">
             <h1>{name}</h1>
+            <figure class="small">
+                <img src={image} alt={name} />
+            </figure>
             <h2>{label}</h2>
             <span>
                 <Globe />
@@ -33,10 +36,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
             <footer class="print">
                 {printInfo}
             </footer>
-            <footer class="no-print">
+            <footer class="no-print holographic-container">
                 {
                     email && (
                         <a
+                            class="holographic-card"
                             href={`mailto:${email}`}
                             title={`Envía un correo a ${name} ao correo ${email}`}
                             target="_blank"
@@ -49,6 +53,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
                 {
                     phone && (
                         <a
+                            class="holographic-card"
                             href={`mailto:${phone}`}
                             title={`Llama a ${name} ao teléfono ${phone}`}
                             target="_blank"
@@ -64,6 +69,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 
                         return (
                             <a
+                                class="holographic-card"
                                 href={url}
                                 title={`Visitar el perfil de ${name} ed ${network}`}
                                 target="_blank"
@@ -76,13 +82,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
                 }
             </footer>
         </div>
-    
-    <figure>
-        <img src={image} alt={name} />
-    </figure>
-</div>
-</Section>
 
+        <figure class="big">
+            <img src={image} alt={name} />
+        </figure>
+    </div>
+</Section>
 
 <style>
     .container {
@@ -136,7 +141,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
         display: flex;
         gap: 4px;
         margin-top: 8px;
-        font-size: 0.65rem ;
+        font-size: 0.65rem;
         color: #555;
     }
 
@@ -156,5 +161,64 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     footer a:hover {
         background: #eee;
         border: 1px solid #ddd;
+    }
+
+    .holographic-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        transition: all 0.5s ease;
+    }
+
+    .holographic-card::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(
+            0deg,
+            transparent,
+            transparent 30%,
+            rgba(253, 135, 208, 0.5)
+        );
+        transform: rotate(-45deg);
+        transition: all 0.5s ease;
+        opacity: 0;
+    }
+
+    .holographic-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 20px rgba(224, 74, 167, 0.726);
+    }
+
+    .holographic-card:hover::before {
+        opacity: 1;
+        transform: rotate(-45deg) translateY(100%);
+    }
+
+    .small {
+        display: none;
+    }
+
+    @media (max-width: 500px) {
+        .holographic-container {
+            justify-content: center;
+        }
+        .container {
+            justify-content: center;
+            text-align: center;
+        }
+
+        .big {
+            display: none;
+        }
+
+        .small {
+            display: block;
+        }
     }
 </style>

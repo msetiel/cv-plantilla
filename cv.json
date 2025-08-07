@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Mari",
+    "name": "Setiel",
     "label": "Programmer",
     "image": "./eu.jpg",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
+    "email": "correodeejemplo@gmail.com",
+    "phone": "123 456 789",
     "url": "https://johndoe.com",
     "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel perferendis, adipisci necessitatibus rem aperiam quaerat ullam eius nam fuga?",
     "location": {
@@ -17,28 +17,28 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "username": "asdfgasfadsf",
+        "url": "https://x.com"
       },
       {
         "network": "LinkedIn",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "username": "asdfgafsafsaf",
+        "url": "https://linkedin.com"
       },
       {
         "network": "GitHub",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "username": "asdfgfadfadf",
+        "url": "https://github.com"
       }
     ]
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
+      "name": "Companía 1",
+      "position": "Empleada",
       "url": "https://company.com",
       "startDate": "2013-01-01",
-      "endDate": null,
+      "endDate": "2014-01-01",
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac metus non eros egestas elementum. Praesent lectus erat, consequat sit.",
       "highlights": [
         "Started the company"
@@ -46,11 +46,11 @@
     },
 
     {
-      "name": "Company",
-      "position": "President",
+      "name": "Compañía 2",
+      "position": "Empleada",
       "url": "https://company.com",
       "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
+      "endDate": null,
       "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac metus non eros egestas elementum. Praesent lectus erat, consequat sit.",
       "highlights": [
         "Started the company"
@@ -72,27 +72,31 @@
   ],
   "education": [
     {
-      "institution": "University",
+      "institution": "Ciclo Superior",
       "url": "https://institution.com/",
       "area": "Software Development",
       "studyType": "Bachelor",
       "startDate": "2011-01-01",
       "endDate": "2013-01-01",
-      "score": "4.0",
+      "score": "9.0",
       "courses": [
-        "DB1101 - Basic SQL"
+        "DB11 - Basic HTML",
+        "DB11 - Basic CSS",
+        "DB11 - Basic JS"
       ]
     },
     {
-      "institution": "University",
+      "institution": "Universidade",
       "url": "https://institution.com/",
-      "area": "Software Development",
+      "area": "Web Development",
       "studyType": "Bachelor",
       "startDate": "2011-01-01",
       "endDate": "2013-01-01",
-      "score": "4.0",
+      "score": "8.0",
       "courses": [
-        "DB1101 - Basic SQL"
+        "DB1101 - Basic SQL",
+        "DB1101 - Basic PHP",
+        "DB1101 - Basic JS"
       ]
     }
   ],
@@ -143,7 +147,27 @@
     },
 
     {
-      "name": "Web Development",
+      "name": "Software Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+
+    {
+      "name": "Social Skills",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+
+    {
+      "name": "Problem solving",
       "level": "Master",
       "keywords": [
         "HTML",
@@ -151,10 +175,21 @@
         "JavaScript"
       ]
     }
+
   ],
   "languages": [
     {
       "language": "English",
+      "fluency": "High level"
+    },
+
+    {
+      "language": "Español",
+      "fluency": "Native speaker"
+    },
+
+    {
+      "language": "Galego",
       "fluency": "Native speaker"
     }
   ],
@@ -175,11 +210,11 @@
   ],
   "projects": [
     {
-      "name": "Project",
+      "name": "Carpentry Shop",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac sodales elit. Duis lacinia sapien vitae porta pharetra. Nullam convallis metus non magna aliquet, sed egestas eros sollicitudin. Aenean efficitur bibendum accumsan. Phasellus ullamcorper ",
       "highlights": [
         "AIHacks 2016",
         "blablabla",
@@ -190,11 +225,11 @@
     },
 
     {
-      "name": "Project",
+      "name": "Sports Shop",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac sodales elit. Duis lacinia sapien vitae porta pharetra. Nullam convallis metus non magna aliquet, sed egestas eros sollicitudin. Aenean efficitur bibendum accumsan. Phasellus ullamcorper ",
       "highlights": [
         "AIHacks 2016",
         "blablabla",
@@ -204,11 +239,11 @@
     },
 
     {
-      "name": "Project",
+      "name": "Library",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac sodales elit. Duis lacinia sapien vitae porta pharetra. Nullam convallis metus non magna aliquet, sed egestas eros sollicitudin. Aenean efficitur bibendum accumsan. Phasellus ullamcorper ",
       "highlights": [
         "AIHacks 2016",
         "blablabla",
@@ -218,11 +253,11 @@
     },
 
     {
-      "name": "Project",
+      "name": "Make-up Shop",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac sodales elit. Duis lacinia sapien vitae porta pharetra. Nullam convallis metus non magna aliquet, sed egestas eros sollicitudin. Aenean efficitur bibendum accumsan. Phasellus ullamcorper ",
       "highlights": [
         "AIHacks 2016",
         "blablabla",
@@ -232,11 +267,11 @@
     },
 
     {
-      "name": "Project",
+      "name": "Natural Park",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac sodales elit. Duis lacinia sapien vitae porta pharetra. Nullam convallis metus non magna aliquet, sed egestas eros sollicitudin. Aenean efficitur bibendum accumsan. Phasellus ullamcorper ",
       "highlights": [
         "AIHacks 2016",
         "blablabla",
@@ -246,11 +281,11 @@
     },
 
     {
-      "name": "Project",
+      "name": "Art Gallery",
       "isActive": true,
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac sodales elit. Duis lacinia sapien vitae porta pharetra. Nullam convallis metus non magna aliquet, sed egestas eros sollicitudin. Aenean efficitur bibendum accumsan. Phasellus ullamcorper ",
       "highlights": [
         "AIHacks 2016",
         "blablabla",
