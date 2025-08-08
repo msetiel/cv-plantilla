@@ -2,7 +2,7 @@
   "basics": {
     "name": "Setiel",
     "label": "Programmer",
-    "image": "./eu.jpg",
+    "image": "/eu.jpg",
     "email": "correodeejemplo@gmail.com",
     "phone": "123 456 789",
     "url": "https://johndoe.com",
