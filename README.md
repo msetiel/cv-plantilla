@@ -1,47 +1,20 @@
-# Astro Starter Kit: Basics
+# Plantilla de currículum en Astro
 
-```sh
-npm create astro@latest -- --template basics
-```
+Creación dunha plantilla de estilo minimalista e estático (e facilmente imprimible) seguindo o deseño orixinal que podemos atopar en https://github.com/BartoszJarocki/cv creado por Bartos Jarocki, empregando o esquema de JSON de https://jsonresume.org/schema e empregando Astro como framework. A máis tamén se empregou Ninja-keys para ofrecer unha correcta navegación con teclado entre as distintas redes sociais presentadas.
+O conxunto do documento está conformado por HTML e CSS vainilla con fragmentos de JavaScript integrados nos mesmos documentos. 
+A máis do deseño orixinal, engadíronse algunhas animacións e estilado adicional (que non se amosan na versión a imprimir).
 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Ferramentas e recursos
+- VisualCode
+- Astro
+- GitHub
+- MDN/W3Schools/outros
+- [heroicons.com](https://heroicons.com/)
+- Lighthouse
+- Ninja-keys
+- Google Chrome, Mozilla Firefox
 
-## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

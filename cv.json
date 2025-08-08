@@ -6,7 +6,7 @@
     "email": "correodeejemplo@gmail.com",
     "phone": "123 456 789",
     "url": "https://johndoe.com",
-    "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vel perferendis, adipisci necessitatibus rem aperiam quaerat ullam eius nam fuga?",
+    "summary": "Desarrolladora web junior con experiencia en HTML, CSS, JS. Disfruto resolviendo problemas técnicos y creando soluciones innovadoras. Busco unirme a un equipo dinámico donde pueda seguir aprendiendo y contribuyendo al éxito de proyectos tecnológicos.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -72,12 +72,12 @@
   ],
   "education": [
     {
-      "institution": "Ciclo Superior",
+      "institution": "CIFP Inventado",
       "url": "https://institution.com/",
       "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "studyType": "Ciclo Superior",
+      "startDate": "2021-15-09",
+      "endDate": "2024-15-06",
       "score": "9.0",
       "courses": [
         "DB11 - Basic HTML",
@@ -86,12 +86,12 @@
       ]
     },
     {
-      "institution": "Universidade",
+      "institution": "Universidad Inventada ",
       "url": "https://institution.com/",
       "area": "Web Development",
       "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "startDate": "2015-01-01",
+      "endDate": "2019-01-01",
       "score": "8.0",
       "courses": [
         "DB1101 - Basic SQL",
@@ -175,7 +175,6 @@
         "JavaScript"
       ]
     }
-
   ],
   "languages": [
     {
