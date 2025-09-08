@@ -7,19 +7,9 @@
     "phone": "607 989 530",
     "summary": "Desarrolladora web junior con experiencia en HTML, CSS, JS."
       "city": "Vigo",
-      "countryCode": "ES",
+      "countryCode": "ES"
     },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "asdfgasfadsf",
-        "url": "https://x.com"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "asdfgafsafsaf",
-        "url": "https://linkedin.com"
-      },
       {
         "network": "GitHub",
         "username": "asdfgfadfadf",
@@ -39,14 +29,14 @@
       "name": "Don Hotel",
       "position": "Cocinera, camarera",
       "startDate": "2020",
-      "endDate": 2023
+      "endDate": "2023"
     },
 
     {
       "name": "Divina Comida",
       "position": "Ayudante de cocina, camarera",
       "startDate": "2023",
-      "endDate": 2024
+      "endDate": "2024"
     },
   ],
   "volunteer": [
@@ -64,13 +54,13 @@
     },
     {
       "institution": "BBAA Pontevedra ",
-      "area": "Artes",
+      "area": "Artes"
     }
   ],
   "certificates": [
     {
       "name": "B2.2 Inglés",
-      "issuer": "EOI",
+      "issuer": "EOI"
     }
   ],
   "skills": [
