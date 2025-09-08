@@ -3,16 +3,11 @@
     "name": "Setiel",
     "label": "Programmer",
     "image": "/eu.jpg",
-    "email": "correodeejemplo@gmail.com",
-    "phone": "123 456 789",
-    "url": "https://johndoe.com",
-    "summary": "Desarrolladora web junior con experiencia en HTML, CSS, JS. Disfruto resolviendo problemas técnicos y creando soluciones innovadoras. Busco unirme a un equipo dinámico donde pueda seguir aprendiendo y contribuyendo al éxito de proyectos tecnológicos.",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "email": "m.setiel.web@gmail.com",
+    "phone": "607 989 530",
+    "summary": "Desarrolladora web junior con experiencia en HTML, CSS, JS."
+      "city": "Vigo",
+      "countryCode": "ES",
     },
     "profiles": [
       {
@@ -28,153 +23,60 @@
       {
         "network": "GitHub",
         "username": "asdfgfadfadf",
-        "url": "https://github.com"
+        "url": "https://github.com/msetiel"
       }
     ]
   },
   "work": [
     {
-      "name": "Companía 1",
-      "position": "Empleada",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac metus non eros egestas elementum. Praesent lectus erat, consequat sit.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "El pasaje",
+      "position": "Camarera",
+      "startDate": "2018",
+      "endDate": "2018"
     },
 
     {
-      "name": "Compañía 2",
-      "position": "Empleada",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": null,
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac metus non eros egestas elementum. Praesent lectus erat, consequat sit.",
-      "highlights": [
-        "Started the company"
-      ]
+      "name": "Don Hotel",
+      "position": "Cocinera, camarera",
+      "startDate": "2020",
+      "endDate": 2023
     }
   ],
   "volunteer": [
     {
-      "organization": "Organization",
+      "organization": "Proyecto Hombre",
       "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac metus non eros egestas elementum. Praesent lectus erat, consequat sit.",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }
+      "startDate": "2023",
+      "endDate": null
   ],
   "education": [
     {
-      "institution": "CIFP Inventado",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Ciclo Superior",
-      "startDate": "2021-09-09",
-      "endDate": "2024-10-06",
-      "score": "9.0",
-      "courses": [
-        "DB11 - Basic HTML",
-        "DB11 - Basic CSS",
-        "DB11 - Basic JS"
-      ]
+      "institution": "IES As Barxas",
+      "area": "Estudos básicos",
+      "studyType": "ESO, Bachillerato"
     },
     {
-      "institution": "Universidad Inventada ",
-      "url": "https://institution.com/",
-      "area": "Web Development",
-      "studyType": "Bachelor",
-      "startDate": "2015-01-01",
-      "endDate": "2019-01-01",
-      "score": "8.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "DB1101 - Basic PHP",
-        "DB1101 - Basic JS"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "institution": "BBAA Pontevedra ",
+      "area": "Artes",
     }
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "B2.2 Inglés",
+      "issuer": "EOI",
     }
   ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "Junior",
       "keywords": [
         "HTML",
         "CSS",
-        "JavaScript"
+        "JavaScript",
+        "Wordpress"
       ]
     },
-
-    {
-      "name": "Graphic Design",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-
-    {
-      "name": "Software Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-
-    {
-      "name": "Social Skills",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    },
-
-    {
-      "name": "Problem solving",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }
   ],
   "languages": [
     {
@@ -192,21 +94,7 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
+
   "projects": [
     {
       "name": "Carpentry Shop",
