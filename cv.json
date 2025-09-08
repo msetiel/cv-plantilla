@@ -40,7 +40,14 @@
       "position": "Cocinera, camarera",
       "startDate": "2020",
       "endDate": 2023
-    }
+    },
+
+    {
+      "name": "Divina Comida",
+      "position": "Ayudante de cocina, camarera",
+      "startDate": "2023",
+      "endDate": 2024
+    },
   ],
   "volunteer": [
     {
